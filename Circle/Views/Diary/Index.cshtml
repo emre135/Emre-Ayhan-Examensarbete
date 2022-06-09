@@ -1,0 +1,31 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "My diary";
+}
+@model List<Circle.Models.Diary.Diary>
+
+
+@foreach (var post in @Model)
+{
+  
+<div class="card-container" style="margin-top: 30px; margin-bottom: 50px;">
+  
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">@post.Title</h4>
+      <h6 class="card-subtitle mb-2 text-muted">@post.Author on @post.Date</h6>
+      <p class="card-text">
+        @post.Text
+      </p>
+      
+      
+      
+      <a>
+        <i class="icon fa-solid fa-trash delete-button" id="@post.DiaryID"></i>
+      </a>
+     
+    </div>
+  </div>
+  
+</div>
+}

@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_Layout";
+    
+}
+
+       
+<div class="post-container">
+    
+    <h1 class="login-title-text" style="margin-bottom: 40px;">New post</h1>
+
+    <div class="shared-field-section" style="margin-top: 0;">
+        <label class="shared-label-text">Title</label>
+        <div class="shared-input-container">
+            <input class="shared-input-field" id="title-input"/>
+        </div>
+    </div>
+        
+
+    <div class="text-input-container">
+        <label class="shared-label-text">Text</label>
+        <div class="shared-input-container">
+            <textarea class="text-input-field" id="text-input"></textarea>
+        </div>
+            
+    </div>
+    
+    
+    <div class="shared-field-section" style="margin-top:40px;">
+
+        <button class="shared-button" onclick="window.location.href='/home'">
+            Return
+        </button>
+
+        <p class="shared-label-text" style="text-align: center; margin-bottom: 10px; margin-top: 10px;">or</p>
+
+        <button class="shared-button" id="post-button" type="submit">
+            Post
+        </button>
+
+    </div>
+    
+    
+</div>

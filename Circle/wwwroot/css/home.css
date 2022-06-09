@@ -1,0 +1,26 @@
+.home-user {
+    text-align: center;
+}
+.home-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-icon {
+    margin: auto;
+    zoom: 3;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.option-title {
+    text-align: center;
+}
+
+.option-button {
+    margin: auto;
+}
+

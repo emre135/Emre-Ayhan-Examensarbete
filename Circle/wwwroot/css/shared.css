@@ -1,0 +1,144 @@
+﻿
+body{
+  background-color: #ee8146;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+.shared-label-text {
+  color: grey;
+}
+
+.shared-input-field {
+  border:none;
+  border-bottom: 1px solid lightgrey;
+  width: 300px;
+  height: 38px;
+  
+}
+.shared-input-field:focus {
+  outline: none;
+  border-bottom: 1px solid #ee8146;
+}
+
+.shared-input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.shared-icon {
+  align-self: center;
+  margin-right: 10px;
+  zoom: 0.8;
+  opacity: 80%;
+  
+}
+
+.shared-button {
+  width: 300px;
+  border-radius: 20px;
+  border:none;
+  color: white;
+  background-color: #494945;
+  height: 38px;
+  font-weight: bold;
+}
+.shared-button:hover {
+  background-color: #595955;
+}
+.shared-inner {
+  margin: 40px 40px 50px;
+}
+.shared-field-section {
+  width: 300px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.shared-focus:focus {
+  box-shadow: 0px 0px 2px #ee8146;
+  border-color: grey;
+  outline: none;
+}
+
+.shared-input-field2 {
+  height: 38px;
+  color: black;
+  border-color: grey;
+}
+
+.form-control:focus {
+  border-color: #ee8146;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.shared-container {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.shared-table {
+  margin: auto;
+}
+
+.shared-table-head {
+  display:flex;
+  flex-direction: row;
+  border-bottom:1px solid black;
+}
+
+.shared-table-row {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.shared-table-row:hover {
+  background-color: #ffefe1;
+}
+
+.shared-center {
+  margin: auto;
+}
+
+
+
+.shared-red-color {
+  color: red;
+}
+
+.shared-green-color {
+  color: green;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  zoom: 1.3;
+}
+
+.error-container {
+  background-color: #ff958e;
+  width: fit-content;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+
+.error-text {
+  margin: auto;
+  padding: 10px;
+}
+
+

@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_Layout";
+}
+
+<div class="login-container">
+
+    <div class="shared-inner">
+        <h1 class="login-title-text">Login</h1>
+        
+        <div class="error-container" hidden>
+            <p class="error-text"></p>
+        </div>
+        
+        <div class="shared-field-section" style="margin-top: 150px;">
+            <label class="shared-label-text">Username</label>
+            <div class="shared-input-container">
+                <i class="shared-icon fa-solid fa-user"></i>
+                <input class="shared-input-field" id="login-username-input"/>
+            </div>
+        </div>
+
+        <div class="shared-field-section" style="margin-top: 25px;">
+            <label class="shared-label-text">Password</label>
+            <div class="shared-input-container">
+                <i class="shared-icon fa-solid fa-key"></i>
+                <input class="shared-input-field" id="login-password-input" type="password"/>
+            </div>
+        </div>
+
+        <div class="shared-field-section" style="margin-top:120px;">
+
+            <button class="shared-button" id="register-button" onclick="window.location.href='/register'">
+                Register
+            </button>
+            
+            <p class="shared-label-text" style="text-align: center; margin-bottom: 10px; margin-top: 10px;">or</p>
+            
+            <button class="shared-button" id="login-button" type="submit">
+                Sign in
+            </button>
+        </div>
+    </div>
+</div>

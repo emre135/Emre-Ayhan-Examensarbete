@@ -1,0 +1,20 @@
+﻿<header>
+    <div class="circle-navbar">
+        <div class="circle-navbar-inner">
+            
+            <div>
+                <a class="navbar-icon" asp-controller="Home" asp-action="Index">
+                    <img class="circle-logo" src="circle_logo.png" alt="Circle logo">
+                </a>
+                <span class="circle-logo-text">Circle</span>
+            </div>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Logout" asp-action="SignOut" class="navbar-icon" id="logout-button" style="margin-top: 15px; color: inherit;">
+                    <i class="fa-solid fa-right-from-bracket"><span style="margin-left: 5px;">Logout</span></i>
+                </a>
+            }
+        </div>
+    </div>
+</header>

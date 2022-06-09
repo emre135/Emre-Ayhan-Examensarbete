@@ -1,0 +1,65 @@
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_Layout";
+}
+
+<div class="register-container">
+    <h1 class="login-title-text">Register</h1>
+    
+    <div class="shared-field-section">
+        <label class="shared-label-text">Username</label>
+        <div class="shared-input-container">
+            <i class="shared-icon fa-solid fa-user"></i>
+            <input class="shared-input-field" id="register-username-input"/>
+        </div>
+    </div>
+    
+    <div class="shared-field-section">
+        <label class="shared-label-text">First Name</label>
+        <div class="shared-input-container">
+            <i class="shared-icon fa-solid fa-user"></i>
+            <input class="shared-input-field" id="register-firstName-input"/>
+        </div>
+    </div>
+    
+    <div class="shared-field-section">
+        <label class="shared-label-text">Last Name</label>
+        <div class="shared-input-container">
+            <i class="shared-icon fa-solid fa-user"></i>
+            <input class="shared-input-field" id="register-lastName-input"/>
+        </div>
+    </div>
+
+    
+    
+    <div class="shared-field-section">
+        <label class="shared-label-text">Password</label>
+        <div class="shared-input-container">
+            <i class="shared-icon fa-solid fa-key"></i>
+            <input class="shared-input-field" id="register-password-input" type="password"/>
+        </div>
+    </div>
+    
+
+    <div class="shared-field-section">
+        <label class="shared-label-text">Confirm Password</label>
+        <div class="shared-input-container">
+            <i class="shared-icon fa-solid fa-key"></i>
+            <input class="shared-input-field" id="register-confirm-password-input" type="password"/>
+        </div>
+    </div>
+    
+    <div class="shared-field-section" style="margin-top:40px;">
+        
+        <button class="shared-button" onclick="window.location.href='/login'">
+            Cancel
+        </button>
+        
+        <p class="shared-label-text" style="text-align: center; margin-bottom: 10px; margin-top: 10px;">or</p>
+        
+        <button class="shared-button" id="register-button" type="submit">
+            Submit
+        </button>
+        
+    </div>
+</div>
